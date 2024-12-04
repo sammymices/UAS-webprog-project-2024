@@ -3,7 +3,8 @@
     "type": "module",
     "scripts": {
         "build": "vite build",
-        "dev": "vite"
+        "dev": "vite",
+        "install-build": "npm install && npm run build"
     },
     "devDependencies": {
         "autoprefixer": "^10.4.20",
@@ -15,3 +16,4 @@
         "vite": "^5.0"
     }
 }
+
