@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\ProgramController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -51,3 +52,4 @@ Route::get('/kontak', function () {
 });
 
 Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard'); // Pastikan Anda memiliki controller ini
+Route::get('/program', [ProgramController::class, 'index']);

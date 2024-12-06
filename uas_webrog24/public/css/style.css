@@ -4,9 +4,16 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #f3fff4;
+  background-color: #e7fee9;
 }
 /* Nav Fixed on Scroll */
+
+.content-container {
+    background-color: #e3ffe9; /* Warna latar belakang putih untuk konten */
+    padding: 20px; /* Padding untuk konten */
+    z-index: 1; /* Pastikan konten berada di atas background */
+    min-height: 100vh; 
+}
 
 .nav-color {
         background-color: #005a36;
@@ -122,21 +129,25 @@ h2 {
     color: var(--pr-color);
 }
 
+h4 {
+    color: var(--pr-color);
+}
+
 .sub-title {
     font-size: 18px;
     color: #000;
 }
 
-.card-layanan { 
-    width: 100%;
-    height: 313px;
-    border-radius: 5px;
-    padding: 40px;
-    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.055);
 
-    transition: all .3s ease-in;
+    #prev, #next {
+        background-color: #34D399 !important; /* Warna hijau */
+        color: white !important;
+    }
+    #prev:hover, #next:hover {
+        background-color: #10B981 !important; /* Warna hijau lebih gelap saat hover */
+    }
 
-}
+
 
 .circle-icon {
     width: 70px;
