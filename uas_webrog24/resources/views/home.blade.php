@@ -86,8 +86,8 @@
             <p>
                 <span class="fw-bold">Bersama Al Mubarok, </span>kita menanam nilai-nilai Islam. Bersama-sama, kita wujudkan masa depan yang gemilang
             </p>
-            <button class="button-lg-secondary me-4">Donasi</button>
-            <a href="#rekomendasi">
+            <button class="button-lg-secondary me-4" onclick="window.location.href='{{ url('/donasi') }}'">Donasi</button>
+            <a href="{{ url('/donasi') }}">
                 <img src="{{ asset('Assets/Right Arrow.png') }}" alt="">
             </a>
         </div>
