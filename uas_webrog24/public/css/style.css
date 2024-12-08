@@ -5,6 +5,10 @@
 body {
   font-family: "Poppins", sans-serif;
   background-color: #e7fee9;
+    background-size: cover; 
+    background-position: center;  
+    background-attachment: fixed;  
+    background-repeat: no-repeat;
 }
 /* Nav Fixed on Scroll */
 
@@ -496,4 +500,162 @@ footer a {
 footer p {
     font-size: 14px;
     color: #fff;
+}
+
+/* INI SECTION ABOUT US*/
+
+.navbar {
+    position: static;
+    width: 100%;
+}
+
+
+#about-us {
+    background: linear-gradient(160deg, var(--pr-color), #000); /* Latar belakang dengan gradien atau gambar */
+    background-attachment: fixed; /* Latar belakang tetap saat scroll */
+    background-size: cover; /* Pastikan gambar menutupi seluruh area */
+    background-position: center; /* Posisikan gambar di tengah */
+    padding: 100px 0; /* Padding untuk memberi jarak antara konten dan tepi layar */
+    position: relative; /* Menetapkan posisi kontainer relatif terhadap latar belakang */
+    z-index: 1; /* Pastikan konten berada di atas background */
+}
+
+#hero {
+    padding-top: 10px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh; 
+}
+
+.container {
+    padding-top: 80px;
+    background-attachment: fixed; /* Latar belakang tetap saat scroll */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2d2d2d;
+}
+
+.sub-title {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #777;
+    margin-bottom: 40px;
+}
+
+.structure-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.structure-box {
+    background-color: #fff;
+    border: 2px solid #ddd;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 200px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.structure-box h3 {
+    font-size: 1.4rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.structure-box p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.connector {
+    position: absolute;
+    width: 2px;
+    background-color: #333;
+    height: 20px;
+    top: 50%;
+    left: 50%;
+    margin-left: -1px;
+}
+
+.horizontal-connector {
+    width: 60px;
+    height: 2px;
+    background-color: #333;
+    margin: 0 auto;
+}
+
+.child-structure {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.child-structure .structure-box {
+    width: 180px;
+    margin: 0 20px;
+}
+
+.card-custom {
+    background-color: #ffffff; 
+    border-radius: 15px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    padding: 30px; 
+    margin-bottom: 20px; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-custom:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); 
+}
+
+.card-title {
+    font-size: 1.8rem;
+    font-weight: 600; 
+    color: #333; 
+    margin-bottom: 15px; 
+}
+
+.card-text {
+    font-size: 1rem; 
+    color: #555;
+    line-height: 1.6; 
+}
+
+@media (max-width: 768px) {
+    .structure-container {
+        flex-direction: column;
+    }
+
+    .child-structure {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .structure-box {
+        width: 100%;
+        max-width: 300px;
+    }
 }

@@ -82,7 +82,7 @@
         <div class="container h-100 d-flex align-items-center justify-content-end">
     <div class="row h-100">
         <div class="col-lg-6 col-sm-12 hero-tagline my-auto">
-            <h1>Mewujudkan Penerus yang berperilaku sesuai dengan nilai-nilai islam</h1>
+            <h1>Mewujudkan Penerus yang berperilaku sesuai dengan nilai-nilai Islam</h1>
             <p>
                 <span class="fw-bold">Bersama Al Mubarok, </span>kita menanam nilai-nilai Islam. Bersama-sama, kita wujudkan masa depan yang gemilang
             </p>
